@@ -1,0 +1,31 @@
+.btn-group {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-group > button {
+  font-size: 16px;
+}
+
+.btn-payment {
+  @extend %font-bold;
+  background: $brightBlue;
+  border-radius: 10px;
+  box-shadow: 0px 20px 15px $paleBlue;
+  color: #fff;
+  height: 50px;
+  margin: 25px 0 25px;
+  width: 17em;
+
+  @media (min-width: $tablet) {
+    height: 46px;
+    width: 322px;
+  }
+}
+
+.btn-cancel {
+  @extend %font-bold;
+  color: $desaturatedBlue;
+  background: transparent;
+}

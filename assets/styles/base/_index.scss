@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: $paleBlue url($bgImgResponsiveMobile) no-repeat 0rem -5rem;
+  background-size: 100%;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+
+  @media (min-width: $tablet) {
+    background-image: url($bgImgResponsiveDesktop);
+  }
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+*,
+button,
+input {
+  border: none;
+  outline: 0;
+}
+
+button,
+a {
+  cursor: pointer;
+}
