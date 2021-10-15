@@ -3,16 +3,15 @@
   border-radius: 1em;
   display: flex;
   flex-direction: column;
-  height: 567px;
+  padding-bottom: 30px;
+  margin: 10px;
   width: 330px;
 
   @media (min-width: $tablet) {
-    height: 630px;
     width: 410px;
   }
 
   &__photo {
-    height: 160px;
     display: block;
   }
 
@@ -34,17 +33,14 @@
 
     h1 {
       font-size: 25px;
-
-      @media (min-width: $tablet) {
-        padding-top: 30px;
-      }
+      padding-top: 30px;
     }
 
     p {
       @extend %font-medium;
       color: $desaturatedBlue;
       line-height: 1.5em;
-      padding: 20px 30px 25px 30px;
+      padding: 20px 30px 25px;
       text-align: center;
     }
 
@@ -54,7 +50,6 @@
       border-radius: 10px;
       display: flex;
       height: 80px;
-      width: 280px;
 
       @media (min-width: $tablet) {
         height: 86px;
