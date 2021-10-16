@@ -18,6 +18,7 @@
   &__photo,
   &__photo > img {
     @include border-radius-top(1em);
+    display: block;
   }
 
   &__photo > img {

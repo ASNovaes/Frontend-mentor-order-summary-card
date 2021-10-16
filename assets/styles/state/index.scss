@@ -1,3 +1,9 @@
+.btn-payment,
+.btn-cancel,
+.card__body-item a {
+  transition: all 0.2s;
+}
+
 .btn-payment:hover {
   opacity: 0.8;
 }

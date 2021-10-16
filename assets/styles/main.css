@@ -35,7 +35,7 @@ button,
 a {
   cursor: pointer; }
 
-.main {
+.container {
   align-items: center;
   display: flex;
   min-height: 100vh;
@@ -82,7 +82,8 @@ a {
     display: block; }
   .card__photo, .card__photo > img {
     border-top-right-radius: 1em;
-    border-top-left-radius: 1em; }
+    border-top-left-radius: 1em;
+    display: block; }
   .card__photo > img {
     width: 100%; }
   .card__body {
@@ -124,6 +125,11 @@ a {
         margin: 0px 20px;
         text-align: right;
         text-decoration: underline; }
+
+.btn-payment,
+.btn-cancel,
+.card__body-item a {
+  transition: all 0.2s; }
 
 .btn-payment:hover {
   opacity: 0.8; }
